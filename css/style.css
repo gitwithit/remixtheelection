@@ -1,0 +1,228 @@
+body{
+	padding-top: 55px;
+	background: url(../images/furley_bg.png);
+}
+.brand {
+	padding-left: 45px !important;
+}
+.title{
+
+}
+
+.main{
+	position: relative;
+	margin-top: -100px;
+}
+.candidates {
+	position: absolute;
+	margin-top: -175px;
+	z-index: 500
+}
+.candidate {
+	margin-left:10px !important;
+}
+.candidate.obama {
+	margin-left: 50px !important;
+}
+.mouth {
+	position: absolute;
+	margin-top: -290px;
+}
+.stage {
+	z-index:-2;
+	margin-bottom: 0;
+}
+.controls {
+	position: relative;
+	height: 600px;
+	text-align: center;
+	z-index:500;
+}
+
+.control_btns {
+	z-index: 999;
+margin-top: 80px;
+position: absolute;
+}
+.playPauseMusic {
+	padding-left: 18px;
+}
+.navbar-inner {
+	background: url(../images/bg_blue.jpg) !important;
+	border: 0 !important;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.5) !important;
+}
+a.brand {
+	color:#fff !important;
+}
+.set {
+	position: absolute;
+	margin-top: -650px;
+	z-index: 0;
+}
+#myCarousel {
+	position: relative;
+	width:960px;
+	top:150px;
+}
+.carousel-control.left {
+	margin-left: -80px;
+}
+.carousel-control.right {
+	margin-right: -80px;
+}
+h1 small {
+	color: #5C5C5C;
+}
+.fb-like {
+	padding-right: 40px;
+	line-height: 40px;
+}
+.twitter-hashtag-button {
+	line-height: 40px;
+	padding-right: 20px;
+	margin-bottom: -4px;
+}
+.footer{
+	padding: 20px 0 !important;
+}
+.top {
+	z-index:500;
+}
+.bottom{
+	overflow: hidden;
+position: absolute;
+z-index: -5;
+margin-top: 155px;
+}
+.hide_me{
+	margin-top:-230px; /* margin-top:-50px; */
+}
+.well {
+	color:#4c4c4c;
+	margin-top:15px;
+}
+.sound_btn {
+	margin-left: 21px;
+margin-top: 38px;
+}
+.sound_btn .btn-group {
+	margin-bottom:-20px;
+}
+.letter {
+	margin-left: 26px;
+margin-top: 3px;
+}
+.modal-body .btn-group{
+	float: left;
+margin: 5px;
+}
+.connect {
+	margin: 10px 0 30px;
+}
+.connect ul {
+	list-style: none;
+
+	margin:0 !important;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.connect ul li {
+	display: block;
+	padding-right: 5px;
+	margin:0;
+}
+a.obama_home, a.romney_home {
+	position: absolute;
+	background: url('../images/social_spritesheet.png') no-repeat -36px -98px;
+	width: 42px;
+	height: 42px;
+	display: block;
+	margin-top: 0px;
+
+}
+a.romney_home:hover {
+	background: url('../images/social_spritesheet.png') no-repeat -103px -98px;
+}
+a.obama_home:hover {
+	background: url('../images/social_spritesheet.png') no-repeat -169px -98px;
+	
+}
+
+a.obama_twiiter, a.romney_twitter {
+	position: absolute;
+	display: block;
+	margin-top: 0px;
+	left:50px;
+	background: url('../images/social_spritesheet.png') no-repeat -36px -237px;
+	width: 42px;
+	height: 42px;
+
+}
+a.romney_twitter:hover{
+	background: url('../images/social_spritesheet.png') no-repeat -103px -237px;
+}
+a.obama_twiiter:hover{
+	background: url('../images/social_spritesheet.png') no-repeat -169px -237px;
+
+}
+
+a.obama_facebook, a.romney_facebook {
+	position: absolute;
+	display: block;
+	margin-top: 0px;
+	left:100px;
+	background: url('../images/social_spritesheet.png') no-repeat -169px -32px;
+	width: 42px;
+	height: 42px;
+
+}
+a.romney_facebook:hover{
+	background: url('../images/social_spritesheet.png') no-repeat -103px -32px;
+}
+a.obama_facebook:hover {
+	background: url('../images/social_spritesheet.png') no-repeat -36px -32px;
+
+}
+
+a.obama_google, a.romney_google {
+	position: absolute;
+	display: block;
+	margin-top: 0px;
+	left:150px;
+	background: url('../images/social_spritesheet.png') no-repeat -36px -170px;
+	width: 42px;
+	height: 42px;
+
+}
+a.romney_google:hover{
+	background: url('../images/social_spritesheet.png') no-repeat -169px -170px;
+
+}
+a.obama_google:hover {
+	background: url('../images/social_spritesheet.png') no-repeat -103px -170px;
+}
+#info {
+	margin-left: 20px;
+margin-top: -4px;
+	background: #fcf3a4; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcf3a4 0%, #f1da36 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf3a4), color-stop(100%,#f1da36)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fcf3a4 0%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fcf3a4 0%,#f1da36 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fcf3a4 0%,#f1da36 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fcf3a4 0%,#f1da36 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf3a4', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+
+color: black;
+text-shadow: 1px 1px 1px white;
+}
+#iframe {
+	position: absolute;
+	left: -9999px;
+}
+.fb-like{
+overflow: hidden;
+height: 29px;
+}
